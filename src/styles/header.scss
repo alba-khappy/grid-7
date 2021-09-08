@@ -1,0 +1,13 @@
+@import "general.scss";
+
+
+.header--container {
+    display: grid;
+    grid-template-columns: repeat(12, auto);
+    padding: 0 100px;
+}
+
+.header--logo {
+    display: grid;
+    grid-column: auto 200px;
+}
