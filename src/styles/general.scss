@@ -17,6 +17,7 @@ $lightBrown: #A78587;
 $biege: #EEE9E6;
 
 body {
+    font-family: 'Montserrat', sans-serif;
     background-color: #f8f6f5;
     color: $brown;
 }
@@ -24,6 +25,17 @@ body {
 .container {
     max-width: 1366px;
     margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 20px;
+}
+
+.h1 {
+    font-family: 'Old Standard TT', serif;
+    font-weight: 400;
 }
 
 

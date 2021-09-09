@@ -1,1 +1,46 @@
 @import "general.scss";
+
+.promo {
+    background-image: url('../images/promo-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center bottom 80px;
+    background-size: cover;
+}
+
+.promo--container {
+    padding: 0 100px;
+    padding-top: 80px;
+    grid-template-rows: repeat(3, auto) 160px;
+}
+
+.promo__h1 {
+    grid-column: 2/7;
+    font-size: 46px;
+    line-height: 64px;
+    text-transform: uppercase;
+    color: $biege;
+}
+
+.promo__descr {
+    color: $biege;
+    grid-column: 2/7;
+    grid-row: 2;
+}
+
+.promo__link {
+    grid-column: 2/5;
+    align-self: center;
+    text-align: center;
+    padding: 18px 0;
+    color: $lightBrown;
+    border-top: 1px solid $lightBrown;
+    border-bottom: 1px solid $lightBrown;
+}
+
+.promo-img {
+    grid-area: 1/7/-1/-1;
+}
+
+.promo__background {
+   
+}
