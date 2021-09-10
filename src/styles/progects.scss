@@ -1,1 +1,73 @@
 @import "general.scss";
+
+.progects--container {
+    padding: 0 100px;
+}
+
+.progects-slider--container {
+    grid-column: 1/ -1;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 20px;
+    grid-row: 2;
+}
+
+.progects-slider__button {
+    width: 72px;
+    height: 72px;
+    background-color: rgba(52, 50, 53, 1);
+    border: none;
+    border-radius: 50px;
+    align-self: center;
+
+    &::after {
+        content: "";
+        background-image: url("../images/Line.svg");
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 33px;
+        left: 22px;
+        width: 24px;
+        height: 25px;
+    }
+}
+
+.progects-slider__button--next {
+    grid-column: 12/13;
+}
+
+.progects-slider__button--prev {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.progects-slider {
+    grid-column: 2/-2;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-rows: auto 100px;
+}
+
+.progects__slider-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-self: center;
+    padding: 0 36px;
+    grid-area: 2/1/3/2;
+    color: #ffffff;
+
+    p {
+        font-family: 'Old Standard TT', serif;
+        font-size: 32px;
+        
+    }
+
+    a{
+        color: #ffffff;
+    }
+}
+
+.progects-slider--img {
+    grid-area: 1 / 1 / 3 / 2;
+}
+

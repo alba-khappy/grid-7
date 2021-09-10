@@ -34,8 +34,18 @@ body {
 }
 
 .h1 {
+    grid-area: 1/1/2/9;
+    align-self: center;
+    justify-self: center;
     font-family: 'Old Standard TT', serif;
     font-weight: 400;
+    z-index: 10;
+}
+
+.bg-h1 {
+    grid-area: 1/1/2/9;
+    align-self: center;
+    justify-self: center;
 }
 
 
