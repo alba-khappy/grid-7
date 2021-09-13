@@ -1,1 +1,37 @@
 @import "general.scss";
+
+.collection--container {
+    padding: 0 100px;
+}
+
+.bg-h1--collection {
+    justify-self: flex-start;
+}
+
+.collection__p--stock {
+    grid-area: 2/2/3/8;
+}
+
+.collection__img--1 {
+    grid-area: 3/1/5/7;
+}
+
+.collection__img--2 {
+    grid-area: 3/7/4/-1;
+}
+
+.collection__img--3 {
+    grid-area: 4/7/5/-1;
+}
+
+.collection__img--4 {
+    grid-area: 5/1/6/7;
+}
+
+.collection__img--5 {
+    grid-area: 6/1/7/7;
+}
+
+.collection__img--6 {
+    grid-area: 5/7/7/-1;
+}

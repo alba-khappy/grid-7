@@ -3,3 +3,39 @@
 .mission--container {
     padding: 0 100px;
 }
+
+.h1--mission {
+    grid-area: 1/8/2/-1;
+    align-self: center;
+    justify-self: center;
+    font-family: 'Old Standard TT', serif;
+    font-weight: 400;
+    z-index: 10;
+}
+
+.bg-h1--mission {
+    grid-area: 1/8/2/-1;
+    align-self: center;
+    justify-self: center;
+    color: #EEE9E6;
+    font-size: 140px;
+    text-transform: uppercase;
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+}
+
+.mission-video {
+    grid-area: 1/1/4/7;
+}
+
+.mission__img--dog {
+    grid-area: 3/7/5/-1;
+}
+
+.mission__img--pillow {
+    grid-area: 4/4/5/7;
+}
+
+.mission--descr {
+    grid-area: 2/8/3/-1;
+}

@@ -1,0 +1,16 @@
+footer.footer
+    .container.footer--container.grid
+        h1.h1 мы всегда рады общению
+        p.bg-h1.bg-h1--collection Talk
+        p.footer__p--call Оставьте свои контакты. Менеджер перезвонит в удобное вам время и ответит на все вопросы.
+        form(action="").footer__form
+            input(type="text", placeholder="Ваше имя").footer__input--name
+            input(type="text", placeholder="Введите телефон").footer__input--tel
+            select(name="").footer__select
+                option(value="1", selected, disable) Удобное время
+                option(value="1") a
+                option(value="1") b
+            div.agreement
+                input(type="checkbox",id="check") 
+                label(for="check") Согласие на обработку персональных данных
+            button.footer__button Оставить заявку
