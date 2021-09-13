@@ -1,19 +1,24 @@
 @import "general.scss";
 
 .header {
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
 .header--container {
     padding: 0 100px;
+    align-items: center;
 }
 
 .header--logo-link {
     display: grid;
-    grid-template-columns: auto 200px;
+    grid-template-columns: auto 240px;
     color: $brown;
     font-weight: 500;
     font-size: 14px;
+
+    p {
+        padding-left: 10px;
+    }
 }
 
 .header__logo-img {
@@ -22,9 +27,12 @@
 }
 
 .header__tel-link {
+    grid-column: 5/7;
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: auto 240px;
     color: $brown;
+    font-weight: 500;
+font-size: 14px;
 }
 
 .header__tel-link::before {
@@ -41,13 +49,17 @@
 .header__tel-order {
     text-decoration: underline;
     grid-column: 2;
+    font-weight: 500;
+font-size: 14px;
 }
 
 .header__address {
     display: grid;
-    grid-column: -2;
+    grid-column: 8/10;;
     grid-template-columns: auto 260px;
     font-style: inherit;
+    font-weight: 500;
+font-size: 14px;
 }
 
 .header__address::before {

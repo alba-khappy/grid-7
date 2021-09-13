@@ -104,6 +104,8 @@ const images = () => {
 }
 
 watch('src/pug/**/*.pug', puggy);
+watch('src/images/**/*.jpg', images);
+watch('src/images/**/*.png', images);
 watch('src/**/*.html', htmlMinify);
 watch('src/styles/*.scss', scss);
 watch('src/styles/*.css', styles);

@@ -1,15 +1,34 @@
 @import "general.scss";
 
+.collection {
+    padding: 120px 0;
+}
+
+.collection__h1 {
+    grid-area: 1/2/2/6;
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    z-index: 10;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 120px;
+}
+
 .collection--container {
     padding: 0 100px;
+    grid-gap: 20px;
 }
 
 .bg-h1--collection {
     justify-self: flex-start;
+    line-height: 130px;
 }
 
 .collection__p--stock {
     grid-area: 2/2/3/8;
+    line-height: 32px;
+    margin-bottom: 15px;
 }
 
 .collection__img--1 {

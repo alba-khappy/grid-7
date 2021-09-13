@@ -14,11 +14,17 @@
 }
 
 .promo__h1 {
-    grid-column: 2/7;
+    grid-area: 1/2/2/7;
+    align-self: flex-start;
     font-size: 46px;
     line-height: 64px;
     text-transform: uppercase;
     color: $biege;
+    justify-self: center;
+    font-family: 'Old Standard TT', serif;
+    font-weight: 400;
+    z-index: 10;
+    text-transform: uppercase;
 }
 
 .promo__descr {
@@ -29,12 +35,15 @@
 
 .promo__link {
     grid-column: 2/5;
-    align-self: center;
+    align-self: end;
+    justify-self: start;
     text-align: center;
     padding: 18px 0;
     color: $lightBrown;
     border-top: 1px solid $lightBrown;
     border-bottom: 1px solid $lightBrown;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 .promo-img {

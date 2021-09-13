@@ -1,12 +1,29 @@
 @import "general.scss";
 
+.popular {
+    padding-top: 100px;
+}
+
 .popular--container {
     padding: 0 100px;
+}
+
+.popular__h1 {
+    grid-area: 1/2/2/7;
+    align-self: center;
+    justify-self: center;
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    z-index: 10;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 42px;
 }
 
 .popular-item {
     display: grid;
     grid-template-rows: repeat(5, auto);
+    margin-bottom: 20px;
 }
 
 .popular-item--1 {
@@ -33,7 +50,7 @@
 .popular-item--5 {
     display: flex;
     grid-row: 3;
-    grid-column: 7/12;
+    grid-column: 7/13;
 }
 
 .popular-item__img {
@@ -60,6 +77,8 @@
 
 .popular-item__description {
     padding: 36px;
+    background-color: #ffffff;
+    height: 264px;
 }
 
 .popular-item__h2 {
@@ -71,14 +90,18 @@
 }
 
 .popular-item__price {
-    font-weight: 700;
     color: #343235;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 24px;
+    padding-top: 20px;
 }
 
 .popular-item__cost {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 20px;
+    padding-top: 20px;
 }
 
 .popoular-item__button {
@@ -86,6 +109,8 @@
     color: #9a8584;
     font-weight: 700;
     font-size: 12px;
+    display: block;
+    padding-top: 30px;
 }
 
 .popoular-item__button::after {
@@ -95,6 +120,6 @@
     background-repeat: no-repeat;
     width: 80px;
     height: 10px;
-    top: 4px;
-    left: 70px;
+    top: 35px;
+    left: 85px;
 }

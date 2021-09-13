@@ -1,5 +1,14 @@
 @import "general.scss";
 
+.progects {
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+
+.progects__h1 {
+    grid-area: 1/2/2/8;
+}
+
 .progects--container {
     padding: 0 100px;
 }

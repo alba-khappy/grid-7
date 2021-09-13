@@ -1,5 +1,9 @@
 @import "general.scss";
 
+.about {
+    padding-top: 65px;
+}
+
 .about--container {
     padding: 0 100px;
 }
@@ -12,16 +16,36 @@
     font-weight: 400;
 }
 
+.about__h1 {
+    grid-area: 1/1/2/6;
+    align-self: center;
+    justify-self: center;
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    z-index: 10;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 42px;
+}
+
+.about__bg-h1 {
+    line-height: 160px;
+}
+
 .about-p1 {
-    grid-area: 2/2/3/7;
+    grid-area: 2/2/3/8;
+    line-height: 32px;
 }
 
 .about-p2 {
-    grid-area: 3/2/4/7;
+    grid-area: 3/2/4/8;
+    line-height: 32px;
 }
 
 .about-p3 {
-    grid-area: 4/2/5/7;
+    grid-area: 4/2/5/8;
+    line-height: 32px;
+    margin-bottom: 58px;
 }
 
 .about-aside {
@@ -29,13 +53,19 @@
 }
 
 .about-aside-img {
-width: 276px;
-height: 160px;
+    width: 276px;
+    height: 160px;
+}
+
+.about__aside-p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
 }
 
 .about-priority {
     grid-area: 5/1/6/13;
-    background-image: url('./images/priority.jpg');
+    background-image: url("./images/priority.jpg");
     background-repeat: no-repeat;
     height: 304px;
 }
@@ -44,22 +74,36 @@ height: 160px;
     grid-area: 5/2/6/12;
     align-self: center;
     justify-self: center;
-    color: #FFFFFF;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 48px;
 }
 
 .about-offers {
-    grid-area: 6/2/7/9;
+    grid-area: 6/2/7/8;
+    padding-top: 45px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 31px;
 }
 
 .about-offers-img {
     grid-area: 7/2/8/8;
+    padding-top: 45px;
 }
 
 .about-pillow-p {
     grid-area: 7/9/8/12;
     align-self: end;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 24px;
+    padding-left: 20px;
 }
 
 .about-exclusive-p {
-    grid-area: 8/2/9/7;
+    grid-area: 8/2/9/8;
+    padding-top: 45px;
+    line-height: 32px;
 }
